@@ -19,7 +19,7 @@ const contactDetails = [
   },
   {
     title: "Office",
-    text: "123 AI Boulevard, Tech City, TC 10001",
+    text: "Mansoura City, Dakahlia, Egypt",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -33,7 +33,6 @@ function Contact() {
   return (
     <section id="contact" className="app-container py-16">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* contact info */}
          {/* contact info */}
         <div>
           <span className="section-subheader">Get in Touch</span>
