@@ -11,7 +11,7 @@ function Navbar() {
     <nav className="bg-white/20% backdrop-blur-md shadow-sm fixed w-full z-50">
       <div className="app-container flex justify-between items-center h-16">
         {/* logo */}
-        <span className="gradient-text text-2xl font-bold">AI Revolution</span>
+        <span className="gradient-text text-2xl font-bold">Nexa Digital</span>
         {/* Desktop links */}
         <div className="hidden md:flex items-center space-x-8">
           {links.map((link) => (

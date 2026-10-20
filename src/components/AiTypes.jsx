@@ -1,7 +1,7 @@
 const aiTypes = [
     {
-      title: "Machine Learning",
-      description: "Systems that learn and improve from experience without being explicitly programmed.",
+      title: "Web Development",
+      description: "We build fast, responsive, and user-friendly websites that strengthen your online presence and turn visitors into customers.",
       image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -14,8 +14,8 @@ const aiTypes = [
       ],
     },
     {
-      title: "Neural Networks",
-      description: "Biologically inspired networks that simulate human brain functions for pattern recognition.",
+      title: "Business Software Solutions",
+      description: "We develop custom dashboards, internal tools, and business applications that simplify workflows and improve operational efficiency.",
       image: "https://images.unsplash.com/photo-1645839057098-5ea8761a6b09?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -28,8 +28,8 @@ const aiTypes = [
       ],
     },
     {
-      title: "Natural Language Processing",
-      description: "Enabling machines to understand, interpret, and generate human language naturally.",
+      title: "AI & Automation",
+      description: "We help businesses automate repetitive tasks and integrate practical AI-powered features into their digital workflows.",
       image: "https://plus.unsplash.com/premium_photo-1733317429945-a3688f50430b?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -53,12 +53,12 @@ function AiTypes() {
   return (
     <section id="types" className="app-container py-16">
         <div className="text-center mb-12">
-          <span className="section-subheader">AI Technilogies</span>
-          <h2 className="section-header">Deffrent Types Of {" "}
-            <span className="gradient-text">Artificial Intelligence</span>
+          <span className="section-subheader">What We Do Best</span>
+          <h2 className="section-header">Digital Services Designed  {" "}
+            <span className="gradient-text">Around Your Goals</span>
           </h2>
           <p className="section-description">
-            Explore the diverse landscape of artificial intelligence and its various types, each with unique capabilities and applications. From machine learning to natural language processing, discover how these AI technologies are shaping the future of innovation and transforming industries worldwide.
+           From your first website to complex digital products, we combine thoughtful design and reliable engineering to create solutions tailored to your business needs.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

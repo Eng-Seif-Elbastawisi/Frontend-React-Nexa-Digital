@@ -11,19 +11,18 @@ function HeroSection() {
       {/* left content */}
       <div className="space-y-6">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-          <span className="gradient-text">Artificial Intelligence</span> 
+          <span className="gradient-text">Digital Solutions</span> 
           <br />
-          For a Smarter Future
+          Built for Your Business
         </h1>
         <p className="text-lg text-gray-600 max-w-lg">
-          Discover the power of artificial intelligence and how it can transform your business ,
-          enhance productivity, and drive innovation. Join the AI revolution today and unlock new possibilities for your organization,
-          <br />
+         We design and develop modern websites, scalable software solutions, and intelligent digital experiences that help businesses work smarter and grow faster.
+         <br />
           <span className="font-semibold">Embrace the future with AI!</span>
         </p>
         <div className="flex flex-col sm:flex-row gap-4 pt-4">
-          <a className="btn-primary" href="#">Explore AI Solutions</a>
-          <a className="btn-outline" href="#">Learn More</a>
+          <a className="btn-primary" href="#">Explore Our Services</a>
+          <a className="btn-outline" href="#">Start a Project</a>
         </div>
         <div className="pt-4 flex items-center space-x-4">
           <div className="flex -space-x-2">
@@ -33,7 +32,8 @@ function HeroSection() {
           </div>
           <p className="text-sm font-medium text-gray-600">
             Trusted by {" "}
-            <span className="text-primary font-bold">10,000+</span>
+            <span className="text-primary font-bold">1000+</span>
+            {"  "}
            people worldwide
           </p>
         </div>
